@@ -4,12 +4,12 @@ import { WSClient } from './WSClient';
 import { ClientManager } from './ClientManager';
 import { isMessageModel } from './types/typeChecking';
 
-export default function App() {  
-  // Configuration hostnames
-  const host = process.env.WS_HOST || 'edu-files-server.herokuapp.com';
-  // const port = parseInt(process.env.WS_PORT) || 443;
+export default function App() {
+  // Configuration
+  const host = process.env.WS_HOST || '127.0.0.1';
+  const port = parseInt(process.env.WS_PORT) || 5000;
 
-  const wss = new WebSocket.Server({ host: host});
+  const wss = new WebSocket.Server({ host: host, port: port });
 
   const clientManager = new ClientManager();
 
