@@ -4,10 +4,10 @@ import { WSClient } from './WSClient';
 import { ClientManager } from './ClientManager';
 import { isMessageModel } from './types/typeChecking';
 
-export default function App() {
+export default function App() { 
   // Configuration hostnames
-  const host = process.env.WS_HOST || '127.0.0.1';
-  const port = parseInt(process.env.WS_PORT) || 5000;
+  const host = process.env.WS_HOST || '3.83.128.11';
+  const port = parseInt(process.env.WS_PORT) || 80;
 
   const wss = new WebSocket.Server({ host: host, port: port });
 
