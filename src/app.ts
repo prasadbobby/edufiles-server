@@ -4,7 +4,7 @@ import { WSClient } from './WSClient';
 import { ClientManager } from './ClientManager';
 import { isMessageModel } from './types/typeChecking';
 
-export default function App() { 
+export default function App() {  
   // Configuration hostnames
   const host = process.env.WS_HOST || 'edu-files-server.herokuapp.com';
   const port = parseInt(process.env.WS_PORT) || 443;
