@@ -7,9 +7,9 @@ import { isMessageModel } from './types/typeChecking';
 export default function App() {  
   // Configuration hostnames
   const host = process.env.WS_HOST || 'edu-files-server.herokuapp.com';
-  const port = parseInt(process.env.WS_PORT) || 443;
+  // const port = parseInt(process.env.WS_PORT) || 443;
 
-  const wss = new WebSocket.Server({ host: host, port: port });
+  const wss = new WebSocket.Server({ host: host});
 
   const clientManager = new ClientManager();
 
