@@ -5,7 +5,7 @@ import { ClientManager } from './ClientManager';
 import { isMessageModel } from './types/typeChecking';
 
 export default function App() {
-  // Configuration
+  // Configuration hostnames
   const host = process.env.WS_HOST || '127.0.0.1';
   const port = parseInt(process.env.WS_PORT) || 5000;
 
