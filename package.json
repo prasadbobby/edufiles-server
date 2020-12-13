@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/dotenv-flow": "^3.0.0",
-    "@types/jest": "^25.1.4",
+    "@types/jest": "^26.0.19",
     "@types/node": "^12.12.31",
     "@types/randomcolor": "^0.5.4",
     "@types/uuid": "^7.0.2",
