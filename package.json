@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/dotenv-flow": "^3.0.0",
     "@types/jest": "^25.1.4",
-    "@types/node": "^12.12.31",
+    "@types/node": "^14.14.13",
     "@types/randomcolor": "^0.5.4",
     "@types/uuid": "^7.0.2",
     "@types/ws": "^7.2.3",
